@@ -10,6 +10,7 @@
  *******************************************************/
 
 #include "feature_tracker.h"
+#include <opencv2/imgproc/imgproc_c.h>
 
 bool FeatureTracker::inBorder(const cv::Point2f &pt)
 {
